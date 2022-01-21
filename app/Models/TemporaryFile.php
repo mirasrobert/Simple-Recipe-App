@@ -9,5 +9,7 @@ class TemporaryFile extends Model
 {
     use HasFactory;
 
+    protected $table = 'temporary_files';
+
     protected $guarded = [];
 }
